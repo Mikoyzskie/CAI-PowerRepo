@@ -1,0 +1,294 @@
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: rgb(108, 117, 125);
+	text-align: left;
+	background-color: rgb(233, 236, 239);
+}
+
+a {
+	color: rgb(35, 122, 145);
+	text-decoration-line: none;
+	text-decoration-style: solid;
+	text-decoration-color: currentcolor;
+}
+
+.rounded-icon {
+	flex-shrink: 0;
+	width: 3rem;
+	height: 3rem;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.height-100 {
+	height: 100vh;
+}
+
+.bg-image:not([class*="absolute"]) {
+	position: absolute;
+}
+
+img.bg-image {
+	object-fit: cover;
+}
+
+.bg-image {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.progress-bar {
+	width: 25%;
+}
+
+:root {
+	--input-padding-x: 1.5rem;
+	--input-padding-y: 0.75rem;
+}
+
+.card-signin {
+	border-top-color: currentcolor;
+	border-top-style: none;
+	border-top-width: 0px;
+	border-right-color: currentcolor;
+	border-right-style: none;
+	border-right-width: 0px;
+	border-bottom-color: currentcolor;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-left-color: currentcolor;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0.5rem 1rem 0px;
+}
+
+.card-signin .card-title {
+	margin-bottom: 2rem;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+	padding-top: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+}
+
+.form-signin {
+	width: 100%;
+}
+
+.form-signin .btn {
+	font-size: 80%;
+	border-top-left-radius: 5rem;
+	border-top-right-radius: 5rem;
+	border-bottom-right-radius: 5rem;
+	border-bottom-left-radius: 5rem;
+	letter-spacing: 0.1rem;
+	font-weight: bold;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+}
+
+.form-label-group {
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.form-label-group > label {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: block;
+	width: 100%;
+	margin-bottom: 0px;
+	line-height: 1.5;
+	color: rgb(73, 80, 87);
+	border-top-color: transparent;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-right-color: transparent;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-color: transparent;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: transparent;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+	transition-property: all;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0s;
+}
+
+.form-label-group input::placeholder {
+	color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+	padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+	padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+	padding-top: calc(var(--input-padding-y) / 3);
+	padding-bottom: calc(var(--input-padding-y) / 3);
+	font-size: 12px;
+	color: rgb(119, 119, 119);
+}
+
+.btn-google {
+	color: white;
+	background-color: rgb(234, 67, 53);
+}
+
+.btn-facebook {
+	color: white;
+	background-color: rgb(59, 89, 152);
+}
+
+.card-signin .card-img-left {
+	width: 45%;
+	background-color: rgba(0, 0, 0, 0);
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-attachment: scroll;
+	background-image: url("https://source.unsplash.com/collection/190727/414x512");
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-size: cover;
+}
+
+.bg-gradient-1 {
+	background-color: rgb(139, 198, 236);
+	background-image: linear-gradient(135deg, rgb(139, 198, 236) 0%, rgb(149, 153, 226) 100%);
+}
+
+.bg-gradient-2 {
+	background-image: linear-gradient(to right, rgb(74, 0, 224), rgb(142, 45, 226));
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	
+	background-repeat: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+}
+
+.bg-gradient-3 {
+	background-image: linear-gradient(to right, rgb(63, 94, 251), rgb(252, 70, 107));
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	
+	background-repeat: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+}
+
+.nav-logo-text {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	background-color: rgba(0, 21, 182, 0);
+}
+
+.card-img-top {
+	height: 50px;
+}
+
+.bg-lighten {
+	background-color: rgb(238, 238, 238);
+	color: rgb(51, 51, 51);
+}
+
+.bg-lighten h3 {
+	color: rgb(51, 51, 51);
+}
+
+.bg-lighten a:hover {
+	text-decoration-line: none;
+	text-decoration-style: initial;
+	text-decoration-color: initial;
+}
+
+.footer-1 address {
+	font-size: 21px;
+}
+
+.footer-1 ul li {
+	padding-bottom: 2px;
+}
+
+.jumbotron.text-center.bg-light {
+	background-color: rgb(23, 23, 30);
+}
+
+body {
+	background-color: rgb(23, 23, 30);
+}
+
+.jumbotron.text-center {
+	background-color: rgb(23, 23, 30);
+	background-image: linear-gradient(to right, rgb(224, 39, 118) 13.5593%, rgb(176, 11, 115) 33.8983%, rgb(129, 36, 213) 98.4127%);
+}
+
+.navbar.shadow-sm.bg-light {
+	background-color: rgb(23, 23, 30);
+}
+
+#iibmxdr {
+	color: rgb(192, 192, 192);
+}
+
+@media (max-width: 480px) {
+	.jumbotron-heading {
+		font-size: 31px;
+	}
+}
